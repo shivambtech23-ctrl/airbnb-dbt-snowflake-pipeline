@@ -1,0 +1,16 @@
+
+
+select
+    host_id,
+    replace(host_name, ' ', '_') as host_name,
+    host_since,
+    is_superhost,
+    case 
+        when response_rate > 95 then 'excellent'
+        when response_rate > 80 then 'good'
+        when response_rate > 60 then 'fair'
+        else 'poor'
+    end as response_rate,
+    created_at,
+    current_timestamp() as _loaded_at
+from AIRBNB.bronze.bronze_hosts
