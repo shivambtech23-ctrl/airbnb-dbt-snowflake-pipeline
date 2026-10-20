@@ -9,7 +9,11 @@ An enterprise-grade Data Transformation pipeline implementing **Medallion Archit
 ---
 
 ## 🏗️ Architecture & Data Lineage
+
 <img width="1401" height="237" alt="Screenshot 2026-10-20 at 4 32 07 PM" src="https://github.com/user-attachments/assets/6490b447-a8fd-40e9-bc3f-c344c3d01627" />
+
+<img width="1307" height="291" alt="Screenshot 2026-10-20 at 4 35 40 PM" src="https://github.com/user-attachments/assets/9642da31-7977-454b-ab16-b577d55c8e0c" />
+
 
 ```mermaid
 flowchart LR
